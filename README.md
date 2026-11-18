@@ -1,16 +1,20 @@
-## Hi there 👋
+# Sérgio Azevedo
 
-<!--
-**malapeiro/malapeiro** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Independent researcher in LLM security and alignment — red-teaming commercial models and AI agents, documenting what happens between refusal and compliance, and disclosing it responsibly.
 
-Here are some ideas to get you started:
+By day: billing control & revenue assurance in telecoms (14 years). Finding where a system's records disagree with reality is the same instinct, whether the system is a customer contract or a language model — currently working toward roles where the two sides meet: data auditing, master data, AI security.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## The research program
+
+One method across three repositories, divided by output. Every case is labeled with its verification level and honest about what cannot be claimed:
+
+- 🔴 [`llm-weaponization-disclosures`](https://github.com/malapeiro/llm-weaponization-disclosures) — offensive artifacts produced under guardrail bypass (exploits, offensive tooling), published in redacted form only.
+- 🧠 [`llm-alignment-research`](https://github.com/malapeiro/llm-alignment-research) — the behavioral side: authority framing, placebo authorization, memory poisoning; home of the classification grid that defines what "compliance" actually means.
+- 🛡️ [`llm-defensive-disclosures`](https://github.com/malapeiro/llm-defensive-disclosures) — the defensive mirror: detectors, Sigma/Suricata/KQL detection rules, guard proxies and hardening labs, execution-verified.
+- 📁 [`bing-pre-copilot-archaeology`](https://github.com/malapeiro/bing-pre-copilot-archaeology) — historical archive: Sydney-era Bing Chat behavior (2023), documented before the Copilot rebrand.
+
+## Disclosure practice
+
+Findings are submitted through official channels (Google Bug Hunters, HackerOne) and directly to vendors, before publication. Published reports are sanitized: inducing prompts and operational payload logic are never published.
+
+**Contact:** sergio.azevedo.security@gmail.com
